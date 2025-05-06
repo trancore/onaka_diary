@@ -14,3 +14,16 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Zen_Maru_Gothic
+      fonts:
+        - asset: assets/fonts/Zen_Maru_Gothic/static/ZenMaruGothic-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Zen_Maru_Gothic/static/ZenMaruGothic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Zen_Maru_Gothic/static/ZenMaruGothic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Zen_Maru_Gothic/static/ZenMaruGothic-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Zen_Maru_Gothic/static/ZenMaruGothic-Black.ttf
+          weight: 900
