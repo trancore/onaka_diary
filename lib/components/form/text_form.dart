@@ -68,14 +68,6 @@ class _TextFormState extends State<TextForm> {
           ),
           validator: FormBuilderValidators.compose(widget.validator ?? []),
         ),
-        ElevatedButton(
-          child: const Text('Submit'),
-          onPressed: () async {
-            // Either invalidate using Form Key
-
-            widget.formTextKey.currentState?.validate();
-          },
-        ),
       ],
     );
   }
