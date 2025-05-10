@@ -19,7 +19,10 @@ class _LayoutState extends State<Layout> {
 
     return Scaffold(
       appBar: const Header(),
-      body: navigationShell,
+      body: Container(
+        color: Colors.white,
+        child: navigationShell,
+      ),
       bottomNavigationBar: Footer(
         navigationShell: navigationShell,
       ),
